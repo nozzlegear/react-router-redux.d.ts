@@ -1,0 +1,30 @@
+{
+  "name": "@types/react-router-redux",
+  "version": "1.0.0",
+  "description": "A Typescript definition for react-router-redux to fix the broken one on DefinitelyTyped.",
+  "main": "index.d.ts",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nozzlegear/react-router-redux.d.ts.git"
+  },
+  "author": "Joshua Harms <joshua@nozzlegear.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nozzlegear/react-router-redux.d.ts/issues"
+  },
+  "homepage": "https://github.com/nozzlegear/react-router-redux.d.ts#readme",
+  "typescript": {
+    "definitions": [
+      "index.d.ts"
+    ]
+  },
+  "dependencies": {
+    "@types/history": "github:nozzlegear/history.d.ts#069bbf0",
+    "@types/react-router": "^2.0.28",
+    "redux": "^3.5.2"
+  }
+}
